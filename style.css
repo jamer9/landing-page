@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    background-color: #1F2937;
+}
+.hero-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+button {
+    background-color: #3882F6;
+}
+.call-to-action {
+    background-color: #3882F6;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+.testimonial {
+    background-color: #E5E7EB;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
