@@ -6,6 +6,7 @@ body {
 }
 .header {
     background-color: #1F2937;
+    padding: 16px;
 }
 .hero-text {
     font-size: 48px;
@@ -22,6 +23,17 @@ body {
 }
 button {
     background-color: #3882F6;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 16%;
+}
+.sign-up-top {
+    border: none;
+}
+.sign-up-botton {
+    border: 2px solid #F9FAF8;
 }
 .call-to-action {
     background-color: #3882F6;
@@ -43,6 +55,8 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 64px;
+    margin-right: 64px;
 }
 a {
     text-decoration: none;
@@ -54,4 +68,34 @@ a {
 }
 .hero {
     display: flex;
+    margin-left: 64px;
+    gap: 16px;
+    align-items: center;
+    height: 400px;
+}
+.hero-image {
+    width: 200px;
+    height: 100px;
+    margin: auto;
+}
+.content-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 8%;
+    outline: 2px solid #3882F6;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.items {
+    display: flex;
+    justify-content: space-around;
+    gap: 36px;
+    flex-wrap: wrap;
+}
+.item {
+    text-align: center;
+    width: 200px;
 }
